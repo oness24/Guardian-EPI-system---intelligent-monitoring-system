@@ -1,0 +1,39 @@
+# Guardian EPI - Dependências do Projeto
+# Instalar com: pip install -r requirements.txt
+
+# TensorFlow/Keras para inferência do modelo Teachable Machine
+tensorflow>=2.13.0,<2.16.0
+keras>=2.13.0
+
+# OpenCV para processamento de imagens e vídeo
+opencv-python>=4.8.0
+opencv-contrib-python>=4.8.0
+
+# Pillow para manipulação de imagens
+Pillow>=10.0.0
+
+# NumPy para operações matriciais
+numpy>=1.24.0,<2.0.0
+
+# Bibliotecas padrão do Python (já inclusas, listadas para referência)
+# - smtplib (envio de emails)
+# - email (construção de mensagens)
+# - logging (sistema de logs)
+# - datetime (timestamps)
+# - json (relatórios)
+
+# Opcional: Para melhor performance e GPU support
+# tensorflow-gpu>=2.13.0  # Descomente se tiver GPU NVIDIA com CUDA
+
+# Opcional: Para análise de dados e geração de relatórios avançados
+# pandas>=2.0.0
+# matplotlib>=3.7.0
+# seaborn>=0.12.0
+
+# Opcional: Para interface web (futuras melhorias)
+# flask>=2.3.0
+# streamlit>=1.25.0
+
+# Opcional: Para notificações alternativas
+# requests>=2.31.0  # Para webhooks (Slack, Teams, etc)
+# python-dotenv>=1.0.0  # Para variáveis de ambiente seguras

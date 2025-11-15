@@ -1,0 +1,53 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+venv/
+env/
+ENV/
+*.egg-info/
+dist/
+build/
+
+# School submission files (don't publish these to GitHub)
+RELATORIO_PERFORMANCE.md
+HISTORICO_IA.md
+HISTORICO_IA_LIMPO.md
+GUIA_CONVERSAO_PDF.md
+GUIA_VIDEO.md
+CHECKLIST_ENTREGA.md
+PROJECT_STATUS.md
+TEST_RESULTS.md
+README_GITHUB.md
+DEPLOYMENT_GUIDE.md
+
+# Generated files
+*.zip
+*.pdf
+*.docx
+
+# Logs and alerts
+logs/
+*.log
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Model backups
+*.h5.backup
+*.backup
+
+# Test outputs
+test_output/
+temp/
