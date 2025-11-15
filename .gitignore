@@ -51,3 +51,10 @@ desktop.ini
 # Test outputs
 test_output/
 temp/
+
+# Keep these local only (not for GitHub)
+test_images/
+docs/
+create_zips.py
+HOW_TO_RESUME.md
+README.md
