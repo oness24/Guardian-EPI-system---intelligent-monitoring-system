@@ -107,12 +107,7 @@ Guardian_EPI/
 │   └── deteccao_objetos/
 │
 ├── test_images/               🖼️ Imagens de teste
-│   └── README.md
-│
-└── docs/                      📚 Documentação avançada
-    ├── RELATORIO_DESEMPENHO.md
-    └── HISTORICO_PROMPTS.md
-```
+    └── README.md
 
 ---
 
