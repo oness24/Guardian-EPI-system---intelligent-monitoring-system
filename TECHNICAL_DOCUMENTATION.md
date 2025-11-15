@@ -102,7 +102,7 @@ Output Layer (2 units, Softmax)
 BATCH_SIZE = 32
 EPOCHS = 50
 LEARNING_RATE = 0.001
-OPTIMIZER = 'Adam'
+OPTIMIZER = 'Oness'
 LOSS = 'categorical_crossentropy'
 EARLY_STOPPING = True (patience=5)
 ```
